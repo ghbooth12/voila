@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 // ========== Bootstrap Styling ==========
@@ -30,7 +30,6 @@ section {
   text-transform: uppercase;
   font-family: $font-family-nav;
   background-color: $theme-dark;
-  // @include text-antialiased;
 }
 
 .navbar-brand {
@@ -140,10 +139,15 @@ section {
 }
 
 #skills {
-  background-color: #fff;
+  background-color: $theme-dark;
+  color: #fff;
+  @include text-antialiased;
   .skill-box {
     margin: 50px auto 0;
     @media (min-width: 992px) { margin: 20px auto 0; }
+    li {
+      font-size: $font-size-sm;
+    }
   }
 }
 

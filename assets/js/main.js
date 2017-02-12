@@ -41,3 +41,7 @@ $(function(){
 	});
 });
 
+// Initialize WOW.js Scrolling Animations
+$(function(){
+	new WOW().init();
+});
