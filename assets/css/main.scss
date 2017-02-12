@@ -1,0 +1,13 @@
+---
+---
+
+@charset "utf-8";
+
+// variables.less
+$theme-primary: #FDCD3B;
+$theme-dark: #2A3A3F;
+$font-family-main: 'Raleway', 'Helvetica', Arial, sans-serif;
+$font-size: 16px;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "mixins", "base";
