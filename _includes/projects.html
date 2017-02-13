@@ -1,0 +1,36 @@
+<section id="projects">
+  <div class="container">
+    {% for project in site.showcase %}
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}">
+            </div> <!-- .col-md-6 -->
+            <div class="col-md-6">
+              <h2 class="project-heading">{{ project.title }}</h2>
+              <ul class="list-unstyled labels">
+                {% for label in project.category %}
+                <li>{{ label }}</li>
+                {% endfor %}
+              </ul>
+              <p class="text-gray">{{ project.short-description }}</p>
+            </div> <!-- .col-md-6 -->
+          </div> <!-- .row -->
+          <div class="project-links">
+            <h4>See more backend projects</h4>
+            {% for link in project.more-projects %}
+              <button type="button">{{ link }}</button>
+              {% if link != project.more-projects.last %}
+                |
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div> <!-- .col-md-10 -->
+      </div> <!-- .row -->
+      {% if project != site.showcase.last %}
+        <img src="assets/img/line.png" alt="Line" class="line">
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

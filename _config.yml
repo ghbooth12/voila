@@ -24,6 +24,11 @@ email: "ghbooth12@gmail.com"
 linkedin: "https://www.linkedin.com/in/ghbooth12"
 github: "ghbooth12"
 
+# COLLECTIONS
+collections:
+  showcase:
+    output: true
+
 # Build settings
 markdown: kramdown
 gems:
