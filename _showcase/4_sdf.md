@@ -2,9 +2,10 @@
 layout: modal
 title: Sage Data Force
 thumbnail-path: "assets/img/showcase/mac_sdf.png"
-category: [Ruby, Rails, CMS]
-short-description: A gem that imports and exports a CSV file in a very easy and simple way.
-
+category: business application
+labels: [Ruby, Rails, CMS]
+short-description: A gem that imports and exports a CSV file in a very easy and simple way. Curabitur venenatis felis non ipsum fringilla pharetra. Nam at dolor in velit pellentesque pulvinar.
+more-projects: ["Sage Data Force", "Interior Design"]
 ---
 
 {:.center}

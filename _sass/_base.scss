@@ -94,6 +94,25 @@ section {
 }
 
 
+a {
+  color: #5EA4F7;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  // border-bottom: 1px dotted #5EA4F7;
+}
+
+a:hover {
+  color: #4288DC;
+  // border-bottom: 1px dotted #4288DC;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+
 // ========== Custom Styling ==========
 .text-faded {
   color: rgba(#fff, .7);
@@ -106,6 +125,7 @@ section {
 .line {
 	max-width: 100%;
 }
+
 
 // ========== Specific Styling ==========
 // header.html
@@ -165,10 +185,9 @@ section {
   .project-heading {
     margin-top: 0;
     display: inline-block;
+    margin-right: 15px;
   }
   .labels {
-    display: inline-block;
-    margin-left: 15px;
     li {
       color: #fff;
       background-color: $theme-primary;
@@ -190,6 +209,9 @@ section {
       font-weight: 500;
       color: #777;
     }
+  }
+  .line {
+    margin-bottom: 50px;
   }
 }
 

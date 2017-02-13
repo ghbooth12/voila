@@ -2,9 +2,10 @@
 layout: modal
 title: Moviebook
 thumbnail-path: "assets/img/showcase/mac_moviebook.png"
-category: [AngularJS, Firebase, API]
-short-description: Online social media where users can share their reviews for the movies and search the movie review.
-
+category: frontend
+labels: [AngularJS, Firebase, API]
+short-description: Online social media where users can share their reviews for the movies and search the movie review. Curabitur venenatis felis non ipsum fringilla pharetra. Nam at dolor in velit pellentesque pulvinar.
+more-projects: ["Amazon Alexa", "My Time", "Ping Pong", "Chat", "Metrics", "Todo App"]
 ---
 
 {:.center}

@@ -2,9 +2,10 @@
 layout: modal
 title: CSV Manager
 thumbnail-path: "assets/img/showcase/mac_csv_manager.png"
-category: [Open-Source, Ruby, Rails]
-short-description: A gem that imports and exports a CSV file in a very easy and simple way.
-
+category: open-source
+labels: [Open-Source, Ruby, Rails]
+short-description: A gem that imports and exports a CSV file in a very easy and simple way. Curabitur venenatis felis non ipsum fringilla pharetra. Nam at dolor in velit pellentesque pulvinar.
+more-projects: ["Faker", "FriendlyId", "GeoPlaces", "GeoCoder"]
 ---
 
 {:.center}

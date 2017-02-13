@@ -2,8 +2,9 @@
 layout: modal
 title: Music App
 thumbnail-path: "assets/img/showcase/mac_music_app.png"
-category: [AWS, API]
-short-description: Build a production quality app that allows users to discover new musicians and search local concerts.
+category: backend
+labels: [AWS, API]
+short-description: Build a production quality app that allows users to discover new musicians and search local concerts. Curabitur venenatis felis non ipsum fringilla pharetra. Nam at dolor in velit pellentesque pulvinar.
 more-projects: ["Bookmarker", "Wiki app", "Todo app", "Analytics app", "Open API", "Kele project"]
 ---
 
