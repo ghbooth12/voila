@@ -26,9 +26,6 @@ github: "ghbooth12"
 
 # COLLECTIONS
 collections:
-  showcase:
-    output: true
-
   backend:
     output: true
 
