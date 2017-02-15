@@ -29,6 +29,9 @@ collections:
   showcase:
     output: true
 
+  backend:
+    output: true
+
 # Build settings
 markdown: kramdown
 gems:

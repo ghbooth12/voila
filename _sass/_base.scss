@@ -113,6 +113,12 @@ a:active, a:hover {
 }
 
 
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  color: $theme-primary;
+  width: auto;
+}
+
 
 // ========== Custom Styling ==========
 .text-faded {
