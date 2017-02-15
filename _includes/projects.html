@@ -9,7 +9,7 @@
             </div> <!-- .col-md-6 -->
             <div class="col-md-6">
               <h2 class="project-heading">{{ project.title }}</h2>
-              <a>more</a>
+              <a data-toggle="modal" data-target="#{{ project.modal-id }}">more</a>
               <p class="text-gray">{{ project.short-description }}</p>
               <ul class="list-unstyled labels">
                 {% for label in project.labels %}
@@ -32,6 +32,23 @@
       {% if project != site.showcase.last %}
         <img src="assets/img/line.png" alt="Line" class="line">
       {% endif %}
+
+      <!-- Modal -->
+      <div class="modal fade" id="{{ project.modal-id }}" tabindex="-1" role="dialog" aria-labelledby="{{ project.modal-id }}Label">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="{{ project.modal-id }}Label">{{ project.title }}</h4>
+            </div>
+            <div class="modal-body">
+              {{ project.content }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Modal -->
+
     {% endfor %}
   </div>
 </section>

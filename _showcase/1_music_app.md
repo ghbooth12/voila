@@ -1,5 +1,6 @@
 ---
 layout: modal
+modal-id: musicApp
 title: Music App
 thumbnail-path: "assets/img/showcase/mac_music_app.png"
 category: backend

@@ -1,5 +1,6 @@
 ---
 layout: modal
+modal-id: csvManager
 title: CSV Manager
 thumbnail-path: "assets/img/showcase/mac_csv_manager.png"
 category: open-source

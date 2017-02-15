@@ -1,5 +1,6 @@
 ---
 layout: modal
+modal-id: moviebook
 title: Moviebook
 thumbnail-path: "assets/img/showcase/mac_moviebook.png"
 category: frontend

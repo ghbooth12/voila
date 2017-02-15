@@ -1,5 +1,6 @@
 ---
 layout: modal
+modal-id: sageDataForce
 title: Sage Data Force
 thumbnail-path: "assets/img/showcase/mac_sdf.png"
 category: business application
