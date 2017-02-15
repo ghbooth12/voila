@@ -23,6 +23,25 @@ section {
   padding: 80px 0;
 }
 
+a {
+  color: #5EA4F7;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  // border-bottom: 1px dotted #5EA4F7;
+}
+
+a:hover {
+  color: #4288DC;
+  // border-bottom: 1px dotted #4288DC;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+
 // ========== Bootstrap Styling ==========
 .navbar {
   margin-bottom: 0;
@@ -93,24 +112,6 @@ section {
     color: $theme-primary;
 }
 
-
-a {
-  color: #5EA4F7;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  // border-bottom: 1px dotted #5EA4F7;
-}
-
-a:hover {
-  color: #4288DC;
-  // border-bottom: 1px dotted #4288DC;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:active, a:hover {
-  outline-width: 0;
-}
 
 
 // ========== Custom Styling ==========
