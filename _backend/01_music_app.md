@@ -5,7 +5,6 @@ title: Music App
 thumbnail-path: "assets/img/backend/music_app.png"
 labels: [AWS, API]
 short-description: Build a production quality app that allows users to discover new musicians and search local concerts. Curabitur venenatis felis non ipsum fringilla pharetra. Nam at dolor in velit pellentesque pulvinar.
-more-projects: ["Bookmarker", "Wiki app", "Todo app", "Analytics app", "Open API", "Kele project"]
 ---
 
 {:.center}

@@ -1,22 +1,22 @@
 <section id="projects">
   <div class="container">
     <!-- Carousel -->
-    <div id="backend-projects" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div id="frontend-projects" class="carousel slide" data-ride="carousel" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#backend-projects" data-slide-to="0" class="active"><a>Music App</a></li> |
-        <li data-target="#backend-projects" data-slide-to="1"><a>Bookmarker</a></li> |
-        <li data-target="#backend-projects" data-slide-to="2"><a>Wiki App</a></li> |
-        <li data-target="#backend-projects" data-slide-to="3"><a>Todo App</a></li> |
-        <li data-target="#backend-projects" data-slide-to="4"><a>Analytics App</a></li> |
-        <li data-target="#backend-projects" data-slide-to="5"><a>Open API</a></li> |
-        <li data-target="#backend-projects" data-slide-to="6"><a>Kele API Client</a></li>
+        <li data-target="#frontend-projects" data-slide-to="0" class="active"><a>Moviebook</a></li> |
+        <li data-target="#frontend-projects" data-slide-to="1"><a>Amazon Alexa</a></li> |
+        <li data-target="#frontend-projects" data-slide-to="2"><a>My Time</a></li> |
+        <li data-target="#frontend-projects" data-slide-to="3"><a>Ping Pong</a></li> |
+        <li data-target="#frontend-projects" data-slide-to="4"><a>Chat</a></li> |
+        <li data-target="#frontend-projects" data-slide-to="5"><a>Metrics</a></li> |
+        <li data-target="#frontend-projects" data-slide-to="6"><a>Todo App</a></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
-        {% for project in site.backend %}
-          {% if project == site.backend.first %}
+        {% for project in site.frontend %}
+          {% if project == site.frontend.first %}
             <div class="item active">
           {% else %}
             <div class="item">
@@ -62,11 +62,11 @@
       </div> <!-- .carousel-inner -->
 
       <!-- Controls -->
-      <a class="left carousel-control" href="#backend-projects" role="button" data-slide="prev">
+      <a class="left carousel-control" href="#frontend-projects" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#backend-projects" role="button" data-slide="next">
+      <a class="right carousel-control" href="#frontend-projects" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -74,5 +74,5 @@
     <!-- End Carousel -->
   </div> <!-- /.container -->
 
-  <h4 class="indicator-heading">Backend Projects</h4>
+  <h4 class="indicator-heading">Frontend Projects</h4>
 </section>
