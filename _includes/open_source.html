@@ -1,0 +1,76 @@
+<section id="projects">
+  <div class="container">
+    <!-- Carousel -->
+    <div id="open-source-projects" class="carousel slide" data-ride="carousel" data-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#open-source-projects" data-slide-to="0" class="active"><a>CSV Manager</a></li> |
+        <li data-target="#open-source-projects" data-slide-to="1"><a>Google Places</a></li> |
+        <li data-target="#open-source-projects" data-slide-to="2"><a>Faker</a></li> |
+        <li data-target="#open-source-projects" data-slide-to="3"><a>Friendly Id</a></li> |
+        <li data-target="#open-source-projects" data-slide-to="4"><a>Geocoder</a></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        {% for project in site.open_source %}
+          {% if project == site.open_source.first %}
+            <div class="item active">
+          {% else %}
+            <div class="item">
+          {% endif %}
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}">
+                  </div> <!-- .col-md-6 -->
+                  <div class="col-md-6">
+                    <h2 class="project-heading">{{ project.title }}</h2>
+                    <a data-toggle="modal" data-target="#{{ project.modal-id }}">more</a>
+                    <p class="text-gray">{{ project.short-description }}</p>
+                    <ul class="list-unstyled labels">
+                      {% for label in project.labels %}
+                        <li>{{ label }}</li>
+                      {% endfor %}
+                    </ul>
+                  </div> <!-- .col-md-6 -->
+                </div> <!-- .row -->
+              </div> <!-- .col-md-10 -->
+            </div> <!-- .row -->
+          </div> <!-- .item -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="{{ project.modal-id }}" tabindex="-1" role="dialog" aria-labelledby="{{ project.modal-id }}_label">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="{{ project.modal-id }}_label">{{ project.title }}</h4>
+                </div>
+                <div class="modal-body">
+                  {{ project.content }}
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal -->
+
+        {% endfor %}
+      </div> <!-- .carousel-inner -->
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#open-source-projects" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#open-source-projects" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- End Carousel -->
+  </div> <!-- /.container -->
+
+  <h4 class="indicator-heading">Open Source Projects</h4>
+</section>

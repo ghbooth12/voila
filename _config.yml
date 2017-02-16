@@ -32,6 +32,9 @@ collections:
   frontend:
     output: true
 
+  open_source:
+    output: true
+
 # Build settings
 markdown: kramdown
 gems:
