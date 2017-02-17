@@ -35,6 +35,9 @@ collections:
   open_source:
     output: true
 
+  business_app:
+    output: true
+
 # Build settings
 markdown: kramdown
 gems:
