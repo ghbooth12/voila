@@ -267,8 +267,32 @@ a:active, a:hover {
   }
 }
 
+
+#testimonial {
+  .comment {
+    margin-bottom: 60px;
+    img {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    blockquote {
+      padding: 0;
+      border: none;
+      font-style: italic;
+      text-align: left;
+      cite {
+        display: block;
+        color: #777;
+        margin: 15px 0 0 0;
+      }
+    }
+  }
+}
+
+
 #contact {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/contact2.jpg) repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/footer.jpg) repeat fixed;
   background-size: cover;
   .contact-header {
     color: #fff;

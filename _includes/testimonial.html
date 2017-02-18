@@ -1,0 +1,21 @@
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        {% for t in site.testimonial %}
+          <div class="row comment">
+            <div class="col-sm-4">
+              <img src="{{ t.thumbnail-path }}" alt="{{ t.name }}">
+            </div>
+            <div class="col-sm-8">
+              <blockquote>
+                {{ t.comment }}
+                <cite>&mdash; {{ t.name }}, {{ t.job }}</cite>
+              </blockquote>
+            </div> <!-- .col-sm-8 -->
+          </div> <!-- .row .comment -->
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

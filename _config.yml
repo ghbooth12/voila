@@ -38,6 +38,9 @@ collections:
   business_app:
     output: true
 
+  testimonial:
+    output: true
+
 # Build settings
 markdown: kramdown
 gems:
