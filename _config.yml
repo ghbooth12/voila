@@ -21,8 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 email: "ghbooth12@gmail.com"
+github: "https://github.com/ghbooth12"
 linkedin: "https://www.linkedin.com/in/ghbooth12"
-github: "ghbooth12"
 
 # COLLECTIONS
 collections:

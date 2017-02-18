@@ -11,10 +11,6 @@ hr {
   max-width: 50px;
 }
 
-hr.light {
-  border-color: #fff;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
@@ -25,15 +21,15 @@ section {
 }
 
 a {
-  color: #5EA4F7;
+  color: $link-color;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  // border-bottom: 1px dotted #5EA4F7;
+  // border-bottom: 1px dotted $link-color;
 }
 
 a:hover {
-  color: #4288DC;
-  // border-bottom: 1px dotted #4288DC;
+  color: $hover-color;
+  // border-bottom: 1px dotted $hover-color;
   text-decoration: none;
   cursor: pointer;
 }
@@ -130,6 +126,9 @@ a:active, a:hover {
   @media (max-width: 568px) { padding: 20px 0; }
 }
 
+.margin-bottom {
+  margin-bottom: 20px;
+}
 
 // ========== Specific Styling ==========
 // header.html
@@ -246,6 +245,52 @@ a:active, a:hover {
     }
   }
 }
+
+#contact {
+  .fa {
+    color: $theme-primary;
+    &:hover {
+      color: darken($theme-primary, 10%);
+    }
+  }
+  form {
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      display: block;
+      padding: 0.5em;
+      margin: 0 0 1em;
+      border-radius: 6px;
+      border: 1px solid #cfcfcf;
+      box-shadow: none;
+    }
+    input[type="submit"] {
+      border-radius: 0.3em;
+      border: 1px solid $link-color;
+      color: $link-color;
+      background-color: #fff;
+      display: inline-block;
+      margin: 1em 0;
+      padding: 0.5em 0.75em;
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      &:hover {
+        background-color: $hover-color;
+        border-color: $hover-color;
+        color: #fff;
+      }
+    }
+    textarea {
+      border-radius: 6px;
+      padding: 0.5em;
+      margin: 0 0 1em;
+      display: block;
+      width: 100%;
+      border: 1px solid #cfcfcf;
+      box-shadow: none;
+    }
+  }
+}
+
 
 
 // ========== Media Query Styling ==========
