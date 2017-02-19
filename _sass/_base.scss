@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-  padding: 80px 0;
+  padding: 60px 0;
   @media (max-width: 568px) { padding: 50px 20px; }
 }
 
@@ -140,8 +140,7 @@ a:active, a:hover {
 .line {
 	max-width: 100%;
   background-color: #fff;
-  padding: 50px 0;
-  @media (max-width: 568px) { padding: 20px 0; }
+  display: block;
 }
 
 .margin-bottom {
@@ -159,6 +158,7 @@ a:active, a:hover {
   .header-content {
     display: table-cell;
     vertical-align: middle;
+    padding: 100px 15px 10px;
     color: #fff;
     text-align: center;
     .header-content-inner {
@@ -176,10 +176,13 @@ a:active, a:hover {
         font-size: 1em;
         margin-bottom: 50px;
       }
-      @media (min-width: 568px) {
-        h1 {font-size: 55px;}
-        p {font-size: 18px;}
-      }
+    }
+  }
+  @media (min-width: 768px) {
+    .header-content {
+      padding: 0 50px;
+      h1 {font-size: 55px;}
+      p {font-size: 18px;}
     }
   }
 }
@@ -267,15 +270,22 @@ a:active, a:hover {
     }
   }
 }
+.last-project {
+  padding-bottom: 110px;
+  @media (max-width: 568px) { padding-bottom: 50px; }
+}
 
 
 #testimonial {
   .comment {
     margin-bottom: 60px;
     img {
+      display: block;
+      margin: 0 auto;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
+      @media (max-width: 1023px) { width: 150px; }
     }
     blockquote {
       padding: 0;
@@ -286,6 +296,12 @@ a:active, a:hover {
         display: block;
         color: #777;
         margin: 15px 0 0 0;
+      }
+    }
+    @media (max-width: 568px) {
+      margin-bottom: 45px;
+      blockquote {
+        margin-top: 20px;
       }
     }
   }
@@ -363,6 +379,12 @@ footer {
     color: #fff;
     &:hover {
       color: $theme-primary;
+    }
+  }
+  @media (max-width: 568px) {
+    padding: 10px 0 5px;
+    small {
+      font-size: .7em;
     }
   }
 }
