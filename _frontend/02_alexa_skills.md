@@ -3,8 +3,8 @@ layout: modal
 modal-id: alexa_skills
 title: Amazon Alexa
 thumbnail-path: "assets/img/frontend/alexa_skills.png"
-labels: [Voice-enabled skill, Amazon's Alexa platform]
-short-description: Build voice-enabled software for Amazon's Alexa platform.
+labels: [Voice-enabled skill, Amazon's Alexa platform, Node.js]
+short-description: Amazon Alexa is a platform that we can interact with devices using voice. These devices are Amazon Echo, Dot and Tap. Alexa executes the voice-enabled software, called "Skills" and those skills can perform various tasks. I developed three skills and published.
 ---
 
 {:.center}
@@ -13,6 +13,10 @@ short-description: Build voice-enabled software for Amazon's Alexa platform.
 {:.center}
 [View GitHub](https://github.com/ghbooth12/d-day-counter){:target="\_blank"}
 
-## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Amazon Alexa is a platform that we can interact with devices using voice. These devices are Amazon Echo, Dot and Tap. Alexa executes the voice-enabled software, called "Skills" and those skills can perform various tasks. I developed three skills and published.
+
+Date Counter is one of the skills that I developed. Date Counter tells users how many weeks and days left until the date users say. For example:
+
+User: "*Alexa, ask Date Counter how many weeks until December 25th*"<br>
+Alexa: "*43 weeks and 6 days left until then.*"

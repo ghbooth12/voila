@@ -1,10 +1,10 @@
 ---
 layout: modal
 modal-id: my_todo
-title: Todo App
+title: Todo Off
 thumbnail-path: "assets/img/frontend/my_todo.png"
 labels: [AngularJS, Firebase]
-short-description: A self-destructing to-do list application built with AngularJS and Firebase.
+short-description: Todo Off is a self-destructing to-do list application built with AngularJS and Firebase. It manages to-do lists by automatically deleting tasks that have not been completed after seven days. Users can prioritize the todo items with three states - expired, completed, active.
 ---
 
 {:.center}
@@ -13,6 +13,7 @@ short-description: A self-destructing to-do list application built with AngularJ
 {:.center}
 [View Full Site](https://my-todo-ghbooth12.herokuapp.com/){:target="\_blank"}
 
-## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Todo Off is a self-destructing to-do list application built with AngularJS and Firebase. It manages to-do lists by automatically deleting tasks that have not been completed after seven days. Users can prioritize the todo items with three states - expired, completed, active.
+
+If the task is not important enough to be completed within seven days, it does not belong on the to-do list. So it solves the problem of to-do list clutter.

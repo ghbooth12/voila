@@ -3,8 +3,8 @@ layout: modal
 modal-id: wiki_app
 title: Wiki App
 thumbnail-path: "assets/img/backend/wiki_app.png"
-labels: [SaaS Wiki]
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+labels: [SaaS Wiki, Markdown, Rails, User Authentication, Email, HMT relationship]
+short-description: Wiki app is a production quality SaaS app that allows users to create their own wikis. Users can create public and private Markdown-based wikis.
 ---
 
 {:.center}
@@ -13,6 +13,6 @@ short-description: Build a production quality SaaS app that allows users to crea
 {:.center}
 [View Full Site](http://wiki-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
-## Explanation
+Wiki app is a production quality SaaS app that allows users to create their own wikis. Users can create public and private Markdown-based wikis.
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Wikis are a great way to collaborate on community-sourced content. Whether the wiki is for a hobby or work-related project, users can create their own wikis and share them publicly or privately with other collaborators.

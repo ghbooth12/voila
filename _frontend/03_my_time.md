@@ -3,8 +3,8 @@ layout: modal
 modal-id: my_time
 title: My Time
 thumbnail-path: "assets/img/frontend/my_time.png"
-labels: [AngularJS, Firebase]
-short-description: A time-management system based on the Pomodoro technique using AngularJS and Firebase.
+labels: [AngularJS, Firebase, Buzz JavaScript library]
+short-description: My Time is a time-management system based on the Pomodoro technique using AngularJS and Firebase. With Pomodoro technique, users time their work in 25-minute intervals, with five-minute breaks in between. Users can record completed tasks and view a history of the tasks.
 ---
 
 {:.center}
@@ -13,6 +13,9 @@ short-description: A time-management system based on the Pomodoro technique usin
 {:.center}
 [View Full Site](https://my-time-ghbooth12.herokuapp.com/){:target="\_blank"}
 
-## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+The Pomodoro Technique aims to increase work productivity and quality. In its simplest form, it times work in 25-minute intervals, with five-minute breaks in between.
+
+During a 25-minute session, users only focus on a task. During a break, users do not do anything related to work.
+
+My Time manages these Pomodoro sessions. Users can record completed tasks and view a history of the tasks.

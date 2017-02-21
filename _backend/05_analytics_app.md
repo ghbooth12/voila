@@ -3,8 +3,8 @@ layout: modal
 modal-id: analytics_app
 title: Analytics App
 thumbnail-path: "assets/img/backend/analytics_app.png"
-labels: [API Tracking]
-short-description: Build an analytics service and reporting tool that you can use with web apps to track user activity and report results.
+labels: [API Tracking, Rails, JavaScript, User Authentication, Graphs]
+short-description: Analytics app is an analytics service and reporting tool that you can use with web apps to track user activity and report results. It uses a server-side API that captures and saves those events to a database.
 ---
 
 {:.center}
@@ -13,6 +13,5 @@ short-description: Build an analytics service and reporting tool that you can us
 {:.center}
 [View Full Site](http://analytics-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
-## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Analytics app is an analytics service and reporting tool that you can use with web apps to track user activity and report results. It uses a client-side JavaScript snippet that allows a user to track events on their website. Then the server-side API captures and saves those events to a database. Finally it displays the captured event data for a user.

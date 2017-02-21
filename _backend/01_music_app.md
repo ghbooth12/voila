@@ -3,8 +3,8 @@ layout: modal
 modal-id: music_app
 title: Music App
 thumbnail-path: "assets/img/backend/music_app.png"
-labels: [AWS, API]
-short-description: Build a production quality app that allows users to discover new musicians and search local concerts. Curabitur venenatis felis non ipsum fringilla pharetra. Nam at dolor in velit pellentesque pulvinar.
+labels: [AWS, Google Maps API, Rails, HMT relationship, Bootstrap, User_Authentication, jQuery]
+short-description: Music app is a production quality app that allows users to search local concerts and discover new musicians. Musicians can post their local concerts and songs to public. Users can listen to the songs and save musicians and concerts and also thumb them up/down.
 ---
 
 {:.center}
@@ -13,6 +13,7 @@ short-description: Build a production quality app that allows users to discover 
 {:.center}
 [View Full Site](http://music-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
-## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Music app is a production quality app that allows users to search local concerts and discover new musicians. Also it allows musicians to post their local concerts and songs to public.
+
+Premium member of musicians can post their songs unlimited. Any tier of members can search by genres and tags, and listen to new music. Also just entering a zip code will show the list of local concerts.
