@@ -4,18 +4,22 @@ modal-id: faker
 title: Faker
 thumbnail-path: "assets/img/open_source/faker.png"
 labels: [Open-Source, Ruby, Gem]
-short-description: Online social media where users can share their reviews for the movies and search the movie review.
+short-description: Faker is a library for generating fake data such as names, addresses, and phone numbers. I made changes in Educator class and created a new class called Money which is similar to RubyMoney.
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/assets/img/open_source/faker.png)
 
 {:.center}
-[Gem Site](https://github.com/stympy/faker){:target="\_blank"}
-[View Full Site 1](https://github.com/stympy/faker/pull/803){:target="\_blank"}
-[View Full Site 2](https://github.com/stympy/faker/pull/807){:target="\_blank"}
-[View Full Site 3](https://github.com/stympy/faker/pull/809){:target="\_blank"}
+[View Faker](https://github.com/stympy/faker){:target="\_blank"}
 
-## Explanation
+Faker is a library for generating fake data such as names, addresses, and phone numbers. I made changes in Educator class and created a new class called Money which is similar to RubyMoney. I also added more specific test code. 
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+1. [Modify course method in Educator class](https://github.com/stympy/faker/pull/803){:target="\_blank"}<br>
+ The `course` method returns the degree name. I modified this to return the course name and created the degree method to return the degree name.
+
+2. [Fix integer to float in Commerce.price method](https://github.com/stympy/faker/pull/807){:target="\_blank"}<br>
+ The `price` method should return a float in string but it returns an integer in string. I made a pull-request to fix this.
+
+3. [Create Money class](https://github.com/stympy/faker/pull/809){:target="\_blank"}<br>
+ I created `Money` class with methods that can be flexible on language settings. For example, if locale is set to Germany, `Money.money_with_symbol` returns "€58.20".

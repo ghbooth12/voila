@@ -269,6 +269,9 @@ a:active, a:hover {
       display: none;
     }
   }
+  .modal-body p:nth-child(2) {
+    text-align: center;
+  }
 }
 .last-project {
   padding-bottom: 110px;

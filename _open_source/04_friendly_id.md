@@ -4,7 +4,7 @@ modal-id: friendly_id
 title: Friendly Id
 thumbnail-path: "assets/img/open_source/friendly_id.png"
 labels: [Open-Source, Ruby, Gem]
-short-description: Online social media where users can share their reviews for the movies and search the movie review.
+short-description: FriendlyId allows you to create pretty URL's and work with human-friendly strings as if they were numeric ids for ActiveRecord models. I made changes so that it can still find the match even when url is capitalized, also it can predict the data even when url gets stripped.
 ---
 
 {:.center}
@@ -12,9 +12,12 @@ short-description: Online social media where users can share their reviews for t
 
 {:.center}
 [Gem Site](https://github.com/norman/friendly_id){:target="\_blank"}
-[View Full Site 1](https://github.com/norman/friendly_id/pull/787){:target="\_blank"}
-[View Full Site 2](https://github.com/norman/friendly_id/pull/788){:target="\_blank"}
 
-## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+FriendlyId allows you to create pretty URL's and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
+
+1. [Change it to case-insensitive url](https://github.com/norman/friendly_id/pull/787){:target="\_blank"}<br>
+ When url is capitalized, FriendlyId couldn't find the match. I changed it case-insensitive so it can find the match in ActiveRecord and returns the expected response.
+
+2. [Predict the data when not-found](https://github.com/norman/friendly_id/pull/788){:target="\_blank"}<br>
+ If url gets stripped partially, it throws an error. But I made it predict what user meant so that it can print the error message with the possible data which is similar to the given url.
