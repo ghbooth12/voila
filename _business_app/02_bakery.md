@@ -4,15 +4,14 @@ modal-id: bakery
 title: Bakery
 thumbnail-path: "assets/img/business_app/bakery.png"
 labels: [business app, html, css, bootstrap, javascript]
-short-description: Online social media where users can share their reviews for the movies and search the movie review.
+short-description: This is a front-end project for a bakery. Various kinds of cakes are displayed and customers can vote for their favorite cupcakes. Although currently a work in progress, it will offer the feature to share it through social media buttons.
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/assets/img/business_app/bakery.png)
 
 {:.center}
-[View Full Site](https://github.com/alexreisner/bakery/pull/1150){:target="\_blank"}
+[View Full Site](https://ghbooth12.github.io/bakery/){:target="\_blank"}
 
-## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+This is a bakery website sample. Various kinds of cakes are displayed and customers can vote for their favorite cupcakes. Although currently a work in progress, it will offer the feature to share it through social media buttons.

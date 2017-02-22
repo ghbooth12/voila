@@ -1,7 +1,11 @@
 ---
 layout: modal
 name: Rob
-job: Rails developer
+job: Computer Scientist
 thumbnail-path: "assets/img/testimonial/ben.png"
-comment: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+short-comment:
+comment: >
+  Gahee recently completed the Software Engineering Principles course through Bloc. I was her mentor for this particular piece of the curriculum. Gahee has what it takes to write software professionally. Over the last several weeks we have been collaborating on several contributions to known open source projects such as the Ruby on Rails gems Faker, Geocoder, Google Places, and a few others.
+  <br><br>
+  The first words that come to mind when I think of Gahee are: great listener, high aptitude, hard worker, diligent, and punctual. I really enjoyed mentoring Gahee at Bloc. She consistently challenged both the curriculum and myself through her acute attention to detail and work ethic. I know she will go on to become an awesome team member and contributor to whatever project, team, or company she ends up working with!
 ---
