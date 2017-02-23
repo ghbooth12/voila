@@ -219,9 +219,13 @@ a:active, a:hover {
     margin-top: 0;
     display: inline-block;
     margin-right: 15px;
+    @include transition(color);
     @media (max-width: 1200px) {
       margin: 20px 0 0 0;
       display: block;
+    }
+    &:hover {
+      color: $theme-primary;
     }
   }
   .labels {

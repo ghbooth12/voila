@@ -1,3 +1,10 @@
+@mixin transition($target)
+{
+  -webkit-transition: $target 0.35s ease;
+  -moz-transition: $target 0.35s ease;
+  transition: $target 0.35s ease;
+}
+
 @mixin transition-all()
 {
   -webkit-transition: all 0.35s ease;

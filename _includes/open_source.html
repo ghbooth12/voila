@@ -23,11 +23,11 @@
               <div class="col-md-10 col-md-offset-1">
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}">
+                    <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}" class="clickable" data-toggle="modal" data-target="#{{ project.modal-id }}">
                   </div> <!-- .col-md-6 -->
                   <div class="col-md-6">
-                    <h2 class="project-heading">{{ project.title }}</h2>
-                    <a data-toggle="modal" data-target="#{{ project.modal-id }}">more</a>
+                    <h2 class="project-heading clickable" data-toggle="modal" data-target="#{{ project.modal-id }}">{{ project.title }}</h2>
+                    <a class="clickable" data-toggle="modal" data-target="#{{ project.modal-id }}">more</a>
                     <p class="text-gray">{{ project.short-description }}</p>
                     <ul class="list-unstyled labels">
                       {% for label in project.labels %}
