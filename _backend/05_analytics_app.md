@@ -11,6 +11,7 @@ short-description: Analytics app is an analytics service and reporting tool that
 ![]({{ site.baseurl }}/assets/img/backend/analytics_app.png)
 
 {:.center}
+[View GitHub](https://github.com/ghbooth12/analytics_app){:target="\_blank"} |
 [View Full Site](http://analytics-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
 

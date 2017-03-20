@@ -11,6 +11,7 @@ short-description: Todo app is a self-destructing to-do list application that he
 ![]({{ site.baseurl }}/assets/img/backend/todo_app.png)
 
 {:.center}
+[View GitHub](https://github.com/ghbooth12/todo_app){:target="\_blank"} | 
 [View Full Site](http://todo-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
 

@@ -11,6 +11,7 @@ short-description: Music app is a production quality app that allows users to se
 ![]({{ site.baseurl }}/assets/img/backend/music_app.png)
 
 {:.center}
+[View GitHub](https://github.com/ghbooth12/music_app){:target="\_blank"} | 
 [View Full Site](http://music-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
 

@@ -11,6 +11,7 @@ short-description: Wiki app is a production quality SaaS app that allows users t
 ![]({{ site.baseurl }}/assets/img/backend/wiki_app.png)
 
 {:.center}
+[View GitHub](https://github.com/ghbooth12/wiki_app){:target="\_blank"} | 
 [View Full Site](http://wiki-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
 Wiki app is a production quality SaaS app that allows users to create their own wikis. Users can create public and private Markdown-based wikis.

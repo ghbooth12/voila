@@ -11,7 +11,8 @@ short-description: Bookmarker is a production quality social bookmarking app tha
 ![]({{ site.baseurl }}/assets/img/backend/bookmarker.png)
 
 {:.center}
-[View Full Site](http://bookmarker-ghbooth12.herokuapp.com){:target="\_blank"}
+[View GitHub](https://github.com/ghbooth12/bookmarker){:target="\_blank"} |
+[View Full Site](https://bookmarker-ghbooth12.herokuapp.com){:target="\_blank"}
 
 
 Bookmarker is a production quality social bookmarking app that allows users to bookmark URLs via email, peruse other user's bookmarks and maintain a personal index of categorized bookmarks.
