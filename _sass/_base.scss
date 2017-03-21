@@ -98,7 +98,7 @@ a:active, a:hover {
   }
   .top-nav-collapse {
     padding: 0;
-    background-color: $theme-dark;
+    background-color: #4c4f54;
   }
 }
 
@@ -340,7 +340,7 @@ a:active, a:hover {
 
 
 #contact {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/footer.jpg) repeat fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/footer.jpg) fixed;
   background-size: cover;
   .contact-header {
     color: #fff;
