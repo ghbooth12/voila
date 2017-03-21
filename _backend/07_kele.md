@@ -5,6 +5,7 @@ title: Kele API Client
 thumbnail-path: "assets/img/backend/kele_api.png"
 labels: [Ruby Gem API, JSON, cURL]
 short-description: Kele is a Ruby Gem API client to access the Bloc API. It provides easy access to and use of the student endpoints of Bloc's API.
+github_url: "https://github.com/ghbooth12/kele"
 ---
 
 {:.center}

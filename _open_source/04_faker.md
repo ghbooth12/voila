@@ -5,6 +5,7 @@ title: Faker
 thumbnail-path: "assets/img/open_source/faker.png"
 labels: [Open-Source, Ruby, Gem]
 short-description: Faker is a library for generating fake data such as names, addresses, and phone numbers. I made changes in Educator class and created a new class called Money which is similar to RubyMoney.
+github_url: "https://github.com/stympy/faker"
 ---
 
 {:.center}
@@ -13,7 +14,7 @@ short-description: Faker is a library for generating fake data such as names, ad
 {:.center}
 [View Faker](https://github.com/stympy/faker){:target="\_blank"}
 
-Faker is a library for generating fake data such as names, addresses, and phone numbers. I made changes in Educator class and created a new class called Money which is similar to RubyMoney. I also added more specific test code. 
+Faker is a library for generating fake data such as names, addresses, and phone numbers. I made changes in Educator class and created a new class called Money which is similar to RubyMoney. I also added more specific test code.
 
 1. [Modify course method in Educator class](https://github.com/stympy/faker/pull/803){:target="\_blank"}<br>
  The `course` method returns the degree name. I modified this to return the course name and created the degree method to return the degree name.

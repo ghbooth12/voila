@@ -5,12 +5,15 @@ title: Metrics
 thumbnail-path: "assets/img/frontend/my_metrics.png"
 labels: [D3.js (visualization library)]
 short-description: Metrics is an analytics tracker for the music player app that can track metrics such as song play count, a list of songs played, number of visits to each page, etc.
+github_url: "https://github.com/ghbooth12/my-metrics"
+site_url: "https://my-metrics-ghbooth12.herokuapp.com/metrics"
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/assets/img/frontend/my_metrics.png)
 
 {:.center}
+[View GitHub](https://github.com/ghbooth12/my-metrics){:target="\_blank"} |
 [View Full Site](https://my-metrics-ghbooth12.herokuapp.com/metrics){:target="\_blank"}
 
 

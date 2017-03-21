@@ -5,13 +5,16 @@ title: Todo Off
 thumbnail-path: "assets/img/frontend/my_todo.png"
 labels: [AngularJS, Firebase]
 short-description: Todo Off is a self-destructing to-do list application built with AngularJS and Firebase. It manages to-do lists by automatically deleting tasks that have not been completed after seven days. Users can prioritize the todo items with three states - expired, completed, active.
+github_url: "https://github.com/ghbooth12/myTodo"
+site_url: "https://my-todo-ghbooth12.herokuapp.com"
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/assets/img/frontend/my_todo.png)
 
 {:.center}
-[View Full Site](https://my-todo-ghbooth12.herokuapp.com/){:target="\_blank"}
+[View GitHub](https://github.com/ghbooth12/myTodo){:target="\_blank"} |
+[View Full Site](https://my-todo-ghbooth12.herokuapp.com){:target="\_blank"}
 
 
 Todo Off is a self-destructing to-do list application built with AngularJS and Firebase. It manages to-do lists by automatically deleting tasks that have not been completed after seven days. Users can prioritize the todo items with three states - expired, completed, active.

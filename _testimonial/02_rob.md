@@ -2,7 +2,7 @@
 layout: modal
 name: Rob
 job: Computer Scientist
-thumbnail-path: "assets/img/testimonial/ben.png"
+thumbnail-path: "assets/img/testimonial/person.png"
 short-comment:
 comment: >
   Gahee recently completed the Software Engineering Principles course through Bloc. I was her mentor for this particular piece of the curriculum. Gahee has what it takes to write software professionally. Over the last several weeks we have been collaborating on several contributions to known open source projects such as the Ruby on Rails gems Faker, Geocoder, Google Places, and a few others.

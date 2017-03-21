@@ -5,6 +5,8 @@ title: Bookmarker
 thumbnail-path: "assets/img/backend/bookmarker.png"
 labels: [Email Integration, Rails, User Authentication, Email]
 short-description: Bookmarker is a production quality social bookmarking app that allows users to bookmark URLs via email, peruse other user's bookmarks and maintain a personal index of categorized bookmarks.
+github_url: "https://github.com/ghbooth12/bookmarker"
+site_url: "http://bookmarker-ghbooth12.herokuapp.com"
 ---
 
 {:.center}
@@ -12,7 +14,7 @@ short-description: Bookmarker is a production quality social bookmarking app tha
 
 {:.center}
 [View GitHub](https://github.com/ghbooth12/bookmarker){:target="\_blank"} |
-[View Full Site](https://bookmarker-ghbooth12.herokuapp.com){:target="\_blank"}
+[View Full Site](http://bookmarker-ghbooth12.herokuapp.com){:target="\_blank"}
 
 
 Bookmarker is a production quality social bookmarking app that allows users to bookmark URLs via email, peruse other user's bookmarks and maintain a personal index of categorized bookmarks.

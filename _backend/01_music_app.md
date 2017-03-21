@@ -5,6 +5,8 @@ title: Music App
 thumbnail-path: "assets/img/backend/music_app.png"
 labels: [AWS, Google Maps API, Rails, HMT relationship, Bootstrap, User_Authentication, jQuery]
 short-description: Music app is a production quality app that allows users to search local concerts and discover new musicians. Musicians can post their local concerts and songs to public. Users can listen to the songs and save musicians and concerts and also thumb them up/down.
+github_url: "https://github.com/ghbooth12/music_app"
+site_url: "http://music-app-ghbooth12.herokuapp.com"
 ---
 
 {:.center}

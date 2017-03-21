@@ -5,6 +5,7 @@ title: Amazon Alexa
 thumbnail-path: "assets/img/frontend/alexa_skills.png"
 labels: [Voice-enabled skill, Amazon's Alexa platform, Node.js]
 short-description: Amazon Alexa is a platform that we can interact with devices using voice. These devices are Amazon Echo, Dot and Tap. Alexa executes the voice-enabled software, called "Skills" and those skills can perform various tasks. I developed three skills and published.
+github_url: "https://github.com/ghbooth12/d-day-counter"
 ---
 
 {:.center}

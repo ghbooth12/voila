@@ -29,8 +29,20 @@
                   </div> <!-- .col-md-6 -->
                   <div class="col-md-6">
                     <h2 class="project-heading clickable" data-toggle="modal" data-target="#{{ project.modal-id }}">{{ project.title }}</h2>
-                    <a class="clickable" data-toggle="modal" data-target="#{{ project.modal-id }}">more</a>
-                    <p class="text-gray">{{ project.short-description }}</p>
+
+                    <!-- GitHub & Site buttons -->
+                    <a href="{{ project.github_url }}" class="btn-gray" target="_blank">GitHub</a>
+                    {% if project.site_url %}
+                      <a href="{{ project.site_url }}" class="btn-gray" target="_blank">Full Site</a>
+                    {% endif %}
+
+                    <!-- Description -->
+                    <p class="text-gray">
+                      {{ project.short-description }}
+                      <a class="clickable" data-toggle="modal" data-target="#{{ project.modal-id }}">Learn more</a>
+                    </p>
+
+                    <!-- Skill Label Buttons -->
                     <ul class="list-unstyled labels">
                       {% for label in project.labels %}
                         <li>{{ label }}</li>

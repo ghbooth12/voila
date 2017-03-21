@@ -5,6 +5,8 @@ title: Analytics App
 thumbnail-path: "assets/img/backend/analytics_app.png"
 labels: [API Tracking, Rails, JavaScript, User Authentication, Graphs]
 short-description: Analytics app is an analytics service and reporting tool that you can use with web apps to track user activity and report results. It uses a server-side API that captures and saves those events to a database.
+github_url: "https://github.com/ghbooth12/analytics_app"
+site_url: "http://analytics-app-ghbooth12.herokuapp.com"
 ---
 
 {:.center}

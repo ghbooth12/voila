@@ -5,13 +5,15 @@ title: Wiki App
 thumbnail-path: "assets/img/backend/wiki_app.png"
 labels: [SaaS Wiki, Markdown, Rails, User Authentication, Email, HMT relationship]
 short-description: Wiki app is a production quality SaaS app that allows users to create their own wikis. Users can create public and private Markdown-based wikis.
+github_url: "https://github.com/ghbooth12/wiki_app"
+site_url: "http://wiki-app-ghbooth12.herokuapp.com"
 ---
 
 {:.center}
 ![]({{ site.baseurl }}/assets/img/backend/wiki_app.png)
 
 {:.center}
-[View GitHub](https://github.com/ghbooth12/wiki_app){:target="\_blank"} | 
+[View GitHub](https://github.com/ghbooth12/wiki_app){:target="\_blank"} |
 [View Full Site](http://wiki-app-ghbooth12.herokuapp.com){:target="\_blank"}
 
 Wiki app is a production quality SaaS app that allows users to create their own wikis. Users can create public and private Markdown-based wikis.

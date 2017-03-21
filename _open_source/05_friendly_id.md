@@ -5,6 +5,7 @@ title: Friendly Id
 thumbnail-path: "assets/img/open_source/friendly_id.png"
 labels: [Open-Source, Ruby, Gem]
 short-description: FriendlyId allows you to create pretty URL's and work with human-friendly strings as if they were numeric ids for ActiveRecord models. I made changes so that it can still find the match even when url is capitalized, also it can predict the data even when url gets stripped.
+github_url: "https://github.com/norman/friendly_id"
 ---
 
 {:.center}

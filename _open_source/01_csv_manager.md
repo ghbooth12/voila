@@ -4,7 +4,8 @@ modal-id: csv_manager
 title: CSV Manager
 thumbnail-path: "assets/img/open_source/csv_manager.png"
 labels: [Open-Source, Ruby, Rails, Gem]
-short-description: CSV Manager is a gem that I created. It imports and exports a CSV file in a very easy and simple way. It can also populate the database with data from the imported CSV file. Any database can be downloaded as a CSV file with the CSV Manager.
+short-description: CSV Manager is a gem that I created. It imports and exports a CSV file in a simple way. It can also populate the database with data from the imported CSV file. Any database can be downloaded as a CSV file with the CSV Manager.
+github_url: "https://github.com/ghbooth12/csv_manager"
 ---
 
 {:.center}

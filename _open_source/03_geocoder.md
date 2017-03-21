@@ -5,6 +5,7 @@ title: Geocoder
 thumbnail-path: "assets/img/open_source/geocoder.png"
 labels: [Open-Source, Ruby, Gem]
 short-description: Geocoder is a gem for converting addresses and coordinates, finding nearby locations, determining distances. I made a change in the one of the methods to return ip addresses without port numbers.
+github_url: "https://github.com/alexreisner/geocoder"
 ---
 
 {:.center}

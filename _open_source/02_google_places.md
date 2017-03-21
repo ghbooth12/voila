@@ -5,6 +5,7 @@ title: Google Places
 thumbnail-path: "assets/img/open_source/google_places.png"
 labels: [Open-Source, Ruby, Gem]
 short-description: Google Places provides a Ruby wrapper around the Google Places API, using HTTParty. I contributed to this gem by making the `spots` method return spots with its full information including the address, url and more.
+github_url: "https://github.com/qpowell/google_places"
 ---
 
 {:.center}

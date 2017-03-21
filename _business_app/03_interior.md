@@ -5,6 +5,7 @@ title: Interior
 thumbnail-path: "assets/img/business_app/interior.png"
 labels: [business app, WordPress, html, css, bootstrap, javascript]
 short-description: This is a website template that I created for interior designers. I also created in WordPress so that non-developers can easily download and use it. It provides a nice look of portfolio page.
+site_url: "https://ghbooth12.github.io/interior/"
 ---
 
 {:.center}
