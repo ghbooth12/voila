@@ -1,6 +1,6 @@
 ---
 layout: modal
-name: Rob
+name: Rob Madden
 job: Computer Scientist
 thumbnail-path: "assets/img/testimonial/person.png"
 short-comment:

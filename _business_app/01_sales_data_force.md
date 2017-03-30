@@ -1,17 +1,17 @@
 ---
 layout: modal
-modal-id: sales_data_force
-title: Sales Data Force
-thumbnail-path: "assets/img/business_app/sales_data_force.png"
+modal-id: sage_data_force
+title: SageDataForce
+thumbnail-path: "assets/img/business_app/sage_data_force.png"
 labels: [business app, html, css, bootstrap, javascript, mechanize, Google Maps API, charts]
-short-description: I co-developed a web application that collects/manages/manipulates the big size of data about car dealerships around the country.
-site_url: "http://sagebdf.com"
+short-description: SageDataForce is a customized application to automatically clean, verify, and grow SalesForce.com and CRM database accounts, contacts, prospects and leads via proprietary and open-source applications to crawl and scrape websites, verify with google data, then update or create current CRM database.
+site_url: "https://youtu.be/fbCsUWpMfNM "
 ---
 
 {:.center}
-![]({{ site.baseurl }}/assets/img/business_app/sales_data_force.png)
+![]({{ site.baseurl }}/assets/img/business_app/sage_data_force.png)
 
 {:.center}
-[View Full Site](http://sagebdf.com){:target="\_blank"}
+[View Full Site](https://youtu.be/fbCsUWpMfNM){:target="\_blank"}
 
-I co-developed a web application that collects/manages/manipulates the big size of data about car dealerships around the country. I also analyzed bugs and found solutions for them and developed new features.
+SageDataForce is a customized application to automatically clean, verify, and grow SalesForce.com and CRM database accounts, contacts, prospects and leads via proprietary and open-source applications to crawl and scrape websites, verify with google data, then update or create current CRM database.
